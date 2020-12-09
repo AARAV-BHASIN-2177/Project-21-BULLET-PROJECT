@@ -58,5 +58,5 @@ if(bulletRightEdge>=wallLeftEdge){
   return false;
 }
 
-}
+
 
