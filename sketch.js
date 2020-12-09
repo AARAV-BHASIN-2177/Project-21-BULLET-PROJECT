@@ -14,6 +14,7 @@ function setup() {
   bullet=createSprite(50, 200, 50, 10);
   bullet.shapeColor="white";
   bullet.visible=true;
+  bullet.collide(wall);
   
   wall=createSprite(1200, 200, thickness, height/2);
   wall.shapeColor=color(80,80,80);
