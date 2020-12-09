@@ -43,7 +43,7 @@ function draw() {
     if(damage<10){
       wall.shapeColor=color(0,255,0);
   }
-  }
+  
   
   drawSprites();
 }
